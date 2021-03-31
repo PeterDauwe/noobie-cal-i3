@@ -1,4 +1,4 @@
-/* === This file is part of Calamares - <https://github.com/calamares> ===
+/* === This file is part of Calamares - <http://github.com/calamares> ===
  *
  *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
  *   Copyright 2018, Adriaan de Groot <groot@kde.org>
@@ -55,10 +55,10 @@ Presentation
             anchors.verticalCenterOffset: 165
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>Welcome to ArcoLinux Bobo Fusion, an i3 based distribution with Xfce menu "+
-                "for the smooth transition from a desktop environment to a tiling window manager.<br/><br/>"+
-                "Whilst the OS is being installed on your computer, here are some tips on the next screens.")
+            color: 'white'
+            text: qsTr("<b>Welcome to ArcoBobo-i3, an arch-based rolling distribution "+
+                "based on a ArcoLinux-i3 but with a different look.<br/><br/>"+
+                "Whilst the OS is being installed on your computer,take a little break.<br/>")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -83,10 +83,8 @@ Presentation
             anchors.verticalCenterOffset: 163
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>ArcoLinux Bobo Fusion is a spin-off from Arcolinux-i3<br/>"+
-                    "Aliases are used to make it easier! <br/><br/><br/>"+
-                    "Type: <b>mirror</b> (this will update you to the fastest server)<br/>Type: <b>update</b> (this is equal to sudo pacman -Syyu)<br/> Type: <b>upall</b> (this is equal to yay -Syu --noconfirm)")
+            color: 'white'
+            text: qsTr("<b>ArcoBobo-i3 is a Arch Linux Distribution with a tilling window manager! ")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -111,10 +109,9 @@ Presentation
             anchors.verticalCenterOffset: 165
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>ArcoLinux Bobo Fusion is a beautiful and easy to use Arch Linux Based Distribution! <br/>"+
-                "Keyboard shortcuts are used to open programs, start scripts or change layouts<br/><br/><br/>"+
-                "Press F1 : This will open a help-file about this OS.")
+            color: 'white'
+            text: qsTr("<b>This distribution installs many programs by default, and more made available through the Calamares installer.<br/>"+
+                "Additionally, you can use yay and pacman to install from the repos.")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -127,60 +124,6 @@ Presentation
 
         Image {
             id: background4
-            source: "slide2.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-        Text {
-            anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
-            font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>This is the helpfile!")
-            wrapMode: Text.WordWrap
-            width: parent.width / 1.4
-            horizontalAlignment: Text.AlignHCenter
-        }
-    }
-
-
-	Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background5
-            source: "slide3.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-        Text {
-            anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
-            font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>This distribution installs many programs by default, and more made available through the Calamares installer.<br/>"+
-            "Additionally, you can use yay and pacman to install from the repos.")
-            wrapMode: Text.WordWrap
-            width: parent.width / 1.4
-            horizontalAlignment: Text.AlignHCenter
-        }
-    }
-
-	Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background6
             source: "slide4.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
@@ -193,90 +136,7 @@ Presentation
             anchors.verticalCenterOffset: 165
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>ArcoLinux Bobo Fusion has an i3 base<br/>"+
-            "with the well-known xfce-bar and whiskermenu as an extra.<br/>"+
-            "This will make it easier to get used to a tiling window manager.")
-            wrapMode: Text.WordWrap
-            width: parent.width / 1.4
-            horizontalAlignment: Text.AlignHCenter
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background7
-            source: "slide5.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-        Text {
-            anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
-            font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>ArcoLinux Logout is installed (Super+x)<br/>"+
-            "Use Alt+l for a fast randomized blurred lockscreen!")
-            wrapMode: Text.WordWrap
-            width: parent.width / 1.4
-            horizontalAlignment: Text.AlignHCenter
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background8
-            source: "slide6.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-        Text {
-            anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
-            font.pixelSize: parent.width *.016
-            color: 'yellow'
-            text: qsTr("<b>Extra wallpapers are added.<br/>"+
-            "A random wallpaper? Use Control+Alt+c")
-            wrapMode: Text.WordWrap
-            width: parent.width / 1.4
-            horizontalAlignment: Text.AlignHCenter
-        }
-    }
-
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background9
-            source: "slide.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
-            anchors.fill: parent
-        }
-        Text {
-            anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
-            anchors.horizontalCenterOffset: 0
-            font.pixelSize: parent.width *.016
-            color: 'yellow'
+            color: 'white'
             text: qsTr("<b>ArcoLinux Bobo Fusion<br/><br/><br/> Hope you have fun with this OS!")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
