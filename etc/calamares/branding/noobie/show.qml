@@ -80,6 +80,7 @@ Presentation
             anchors.fill: parent
         }
         Text {
+        	font.family: "Zekton"
             anchors.centerIn: parent
             anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
@@ -106,6 +107,7 @@ Presentation
             anchors.fill: parent
         }
         Text {
+        	font.family: "Zekton"
             anchors.centerIn: parent
             anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
@@ -134,6 +136,7 @@ Presentation
             anchors.fill: parent
         }
         Text {
+        	font.family: "Zekton"
             anchors.centerIn: parent
             anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
