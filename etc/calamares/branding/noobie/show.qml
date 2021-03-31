@@ -51,14 +51,15 @@ Presentation
             anchors.fill: parent
         }
         Text {
+        	font.family: "Zekton"
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
+            anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
             text: qsTr("<b>Welcome to ArcoBobo-i3, an arch-based rolling distribution "+
                 "based on a ArcoLinux-i3 but with a different look.<br/><br/>"+
-                "Whilst the OS is being installed on your computer,take a little break.<br/>")
+                "Whilst the OS is being installed on your computer,...take a little break.<br/>")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -80,7 +81,7 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 163
+            anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
@@ -106,12 +107,13 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
+            anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>This distribution installs many programs by default, and more made available through the Calamares installer.<br/>"+
-                "Additionally, you can use yay and pacman to install from the repos.")
+            text: qsTr("<b>This distribution installs many programs by default<br/>"+
+            			"Many more are made available through the Calamares installer.<br/>"+
+                		"Additionally, you can use yay and pacman to install from the repos.")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
@@ -133,11 +135,11 @@ Presentation
         }
         Text {
             anchors.centerIn: parent
-            anchors.verticalCenterOffset: 165
+            anchors.verticalCenterOffset: 180
             anchors.horizontalCenterOffset: 0
             font.pixelSize: parent.width *.016
             color: 'white'
-            text: qsTr("<b>ArcoLinux Bobo Fusion<br/><br/><br/> Hope you have fun with this OS!")
+            text: qsTr("<b>ArcoBobo-i3<br/><br/><br/> Hope you have fun with this OS!")
             wrapMode: Text.WordWrap
             width: parent.width / 1.4
             horizontalAlignment: Text.AlignHCenter
