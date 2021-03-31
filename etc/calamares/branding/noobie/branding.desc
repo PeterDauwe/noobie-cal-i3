@@ -164,7 +164,8 @@ strings:
 images:
     productLogo:         "logo.png"
     productIcon:         "squid.png"
-    productWelcome:      "calamares-0.png"
+    productWallpaper:    "wallpaper.png"
+    productWelcome:      "languages.png"
 
 # Colors for text and background components.
 #

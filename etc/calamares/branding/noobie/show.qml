@@ -71,7 +71,7 @@ Presentation
 
         Image {
             id: background2
-            source: "slide.png"
+            source: "slide2.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -97,7 +97,7 @@ Presentation
 
         Image {
             id: background3
-            source: "slide.png"
+            source: "slide3.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -143,7 +143,6 @@ Presentation
             horizontalAlignment: Text.AlignHCenter
         }
     }
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
